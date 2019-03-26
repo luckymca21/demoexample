@@ -12,4 +12,5 @@ phases:
             - 'echo "enter the post build phase"'
 artifacts:
     files:
-        - 'SourceArti/**/*'
+        - '/**/*'
+    name: myname-$AWS_REGION
