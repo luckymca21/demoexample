@@ -12,5 +12,6 @@ phases:
             - 'echo "enter the post build phase"'
 artifacts:
     files:
-        - '/**/*'
-    name: myname-$AWS_REGION
+        - '**/*'
+    base-directory: 'my-build*'
+    discard-paths: yes
